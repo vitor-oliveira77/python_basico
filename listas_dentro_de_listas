@@ -1,0 +1,23 @@
+""" split e join com list e str   
+split - divide uma string 
+join - une uma string 
+strip - corta o espaço do começo, do final, ou de ambos.
+"""
+
+salas = [ 
+    ['Maria','Helena',], 
+    ['Elaine'], 
+    ['Luiz', 'João','Eduarda', ],
+] 
+
+print(salas [1][0]) 
+print(salas [0][1]) 
+print(salas [2][2]) 
+
+for sala in salas: 
+    print(f'A sala é {sala}') 
+    for aluno in sala: 
+        print(aluno)
+
+
+

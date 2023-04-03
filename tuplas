@@ -1,0 +1,5 @@
+# tuplas: uma list imutável, para valores constantes 
+
+nomes = 'Maria', 'Helena', 'Luiz' # para fazer, apenas não usar os colchetes
+print(nomes[-1])
+print(nomes)

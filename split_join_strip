@@ -1,0 +1,11 @@
+""" split e join com list e str   
+split - divide uma string 
+join - une uma string 
+strip - corta o espaço do começo, do final, ou de ambos.
+"""
+
+frase = 'Olha só que, coisa interessante' 
+lista_frases = frase.split(',') 
+print(lista_frases)
+
+
